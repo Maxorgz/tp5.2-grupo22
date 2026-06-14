@@ -24,5 +24,9 @@ public class ConversorMoneda {
     public double retirarDolares(double saldoTotal, double extraccion){
     return saldoTotal - extraccion;
     }
-    
+    //test parametrizado
+    public double comprarDolares(double pesos, double tasa) {
+        if (tasa == 0) return 0;
+        return Math.abs(pesos / tasa);
+    }
 }
