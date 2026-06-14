@@ -21,7 +21,7 @@ public class ConversorMoneda {
     }   
     
     //retirar Dolar
-    public double comprarDolares(double saldoTotal, double extraccion){
+    public double retirarDolares(double saldoTotal, double extraccion){
     return saldoTotal - extraccion;
     }
     
